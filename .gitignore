@@ -1,8 +1,5 @@
 /node_modules/
 *.log
-<<<<<<< HEAD
 .idea
-=======
 .c9revisions
 .git
->>>>>>> 5f514064841da13ca0acf25e2a2b05588e702a63
