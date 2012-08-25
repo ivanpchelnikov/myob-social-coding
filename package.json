@@ -1,7 +1,7 @@
-{ "name": "NodeNeo4jTemplate"
-  , "description": "A sample Node.js + Neo4j app."
+{ "name": "NodeNeo4j_Comp"
+  , "description": "A sample Node.js + Neo4j app. For reports in the tax office."
   , "version": "0.0.1"
-  , "author": "Aseem Kishore <aseem.kishore@gmail.com>"
+  , "author": "Ivan Pchelnikov"
   , "private": true
   , "dependencies":
     { "express": "~2.5.8"
