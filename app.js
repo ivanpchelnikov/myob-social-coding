@@ -49,5 +49,26 @@ app.post('/users/:id/unfollow', routes.users.unfollow);
 
 app.get('/importS3', routes.importS3.ImportFromS3);
 
+app.get('/upload', routes.upload.show);
+app.post('/upload', routes.upload.importCSVData);
+
+app.get('/businesses', routes.businesses.list);
+
+app.get('/partners', routes.partners.list);
+
+app.get('/employees', routes.employees.list);
+
+app.get('/individuals', routes.individuals.list);
+
+app.get('/stocks', routes.stocks.list);
+
+app.get('/referrals', routes.referrals.list);
+
+app.get('/financialyears', routes.financialyears.list);
+
+app.get('/relations', routes.relations.list);
+
+
+
 app.listen(process.env.PORT || 3000);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
